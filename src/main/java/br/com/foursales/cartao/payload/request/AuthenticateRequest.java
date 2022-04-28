@@ -1,4 +1,4 @@
-package br.com.foursales.cartao.model;
+package br.com.foursales.cartao.payload.request;
 
 public class AuthenticateRequest {
 	

@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.foursales.cartao.configuration.JwtTokenUtil;
-import br.com.foursales.cartao.model.AuthenticateRequest;
-import br.com.foursales.cartao.model.AuthenticateResponse;
+import br.com.foursales.cartao.payload.request.AuthenticateRequest;
+import br.com.foursales.cartao.payload.response.AuthenticateResponse;
 
 @RestController
 public class AuthenticationController {
